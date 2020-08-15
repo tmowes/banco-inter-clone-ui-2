@@ -3,9 +3,14 @@ import { createGlobalStyle } from 'styled-components'
 export default createGlobalStyle`
   html {
     font-size: 62.5%;
-    min-height: 100%;
-    background: #f5f6fa !important;
+    background: ${({ theme }) => theme.colors.background};
     transition: background-color .2s ease-out;
+  }
+  body, #root {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
   }
   * {
     margin: 0;
@@ -16,6 +21,7 @@ export default createGlobalStyle`
     border: 0;
     outline: 0;
     background: none;
+    color: ${({ theme }) => theme.colors.grey};
     font-size: 1.6rem;
     font-family: 'Lato', -apple-system, BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
     text-rendering: optimizeLegibility;

@@ -18,7 +18,7 @@ export const Container = styled.button<ButtonProps>`
     align-items: center;
     background: ${theme.colors.white};
     border: 0;
-    padding: 0.8rem 2.4rem;
+    padding: 0.8rem 1.6rem;
     border-radius: 0.8rem;
     color: ${theme.colors.primaryDark};
     transition: ${theme.transition.default};
