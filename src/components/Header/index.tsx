@@ -3,6 +3,7 @@ import React from 'react'
 import { Container, Wrapper, LeftNav, Gradient, RightNav } from './styles'
 import { BancoInter } from '../../assets'
 import Button from '../Button'
+import { PlataformaPaiIcon } from '../../assets/icons'
 
 const Header: React.FC = () => {
   return (
@@ -13,7 +14,10 @@ const Header: React.FC = () => {
           Internet Banking
         </LeftNav>
         <RightNav>
-          <Button variant="secondary">PAI Investimentos</Button>
+          <Button variant="secondary">
+            <PlataformaPaiIcon />
+            Investimentos
+          </Button>
         </RightNav>
       </Wrapper>
       <Gradient />

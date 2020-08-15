@@ -11,6 +11,7 @@ export const Container = styled.div`
 `
 
 export const Wrapper = styled.div`
+  display: flex;
   max-width: 100rem;
   width: 96%;
   height: 100%;

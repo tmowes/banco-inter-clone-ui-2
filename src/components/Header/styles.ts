@@ -34,6 +34,10 @@ export const RightNav = styled.div`
   justify-content: flex-end;
   align-items: center;
   flex: 1;
+  svg {
+    height: 1.75rem;
+    margin-right: 0.4rem;
+  }
 `
 
 export const Gradient = styled.header`
