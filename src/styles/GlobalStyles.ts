@@ -4,7 +4,7 @@ export default createGlobalStyle`
   html {
     font-size: 62.5%;
     min-height: 100%;
-    background:  var(--primary);
+    background: #f5f6fa;
     transition: background-color .2s ease-out;
   }
   * {
@@ -17,8 +17,7 @@ export default createGlobalStyle`
     outline: 0;
     background: none;
     font-size: 1.6rem;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
-    color: var(--black);
+    font-family: 'Lato', -apple-system, BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -32,5 +31,8 @@ export default createGlobalStyle`
   }
   ul, li {
     list-style: none;
+  }
+  h1, h2, h3, h4, h5, h6, strong {
+    font-weight: 500;
   }
 `
