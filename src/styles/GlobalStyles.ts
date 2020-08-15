@@ -4,7 +4,7 @@ export default createGlobalStyle`
   html {
     font-size: 62.5%;
     min-height: 100%;
-    background: #f5f6fa;
+    background: #f5f6fa !important;
     transition: background-color .2s ease-out;
   }
   * {
