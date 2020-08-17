@@ -7,7 +7,6 @@ export const Container = styled.main`
     height: 100%;
     max-height: 12rem;
     display: flex;
-    /* background: ${theme.colors.error}; */
     > button:last-child {
       border-radius: 50%;
       max-width: 4rem;
@@ -43,6 +42,18 @@ export const Card = styled(Button)`
     color: ${theme.colors.grey};
     padding: ${theme.spacing.default};
     font-size: ${theme.fontSizes.default};
+    div {
+      background: ${theme.colors.greyLight};
+      max-width: 6.4rem;
+      max-height: 6.4rem;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-shrink: 0;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+    }
     svg {
       stroke: ${theme.colors.primary};
       stroke-width: 1.5;
